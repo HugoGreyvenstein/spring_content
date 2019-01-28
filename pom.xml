@@ -39,14 +39,33 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
+            <groupId>com.github.paulcwarren</groupId>
+            <artifactId>spring-versions-jpa-boot-starter</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.paulcwarren</groupId>
+            <artifactId>spring-content-fs-boot-starter</artifactId>
+            <version>0.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.paulcwarren</groupId>
+            <artifactId>spring-versions-jpa</artifactId>
+            <version>RELEASE</version>
         </dependency>
     </dependencies>
 
